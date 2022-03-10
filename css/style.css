@@ -20,8 +20,8 @@
 #logo{
     margin-top:15%;
     margin-bottom: 3%;
-    width: 5vw;
-    height: 5vw;
+    width: 6vw;
+    height: 6vw;
   }
 #mouse{
     /* padding-top : 2%; */
@@ -75,43 +75,39 @@
 }
 /* CONTACT */
 .contact{
-    
     background-image: url('../assets/backgrounds/c_image.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
     text-align: center;
-    margin-top:15%; 
+    margin-top:5%; 
     padding-top: 3%;
     padding-bottom: 9%;
     font-family: 'Gabriela', serif;
 }
-.form-control{
+#name, #email, #msg{
+    font-size: 1.5vw;
+}
+ 
+::placeholder {
     color: #fff;
 }
-.form-control::-webkit-input-placeholder {
-    color: #fff;
-    font-weight: 500;
-}
-.your-name , .your-email{
+#name , #email{
     display: inline-flex;
     width: 30%;
     background: none;
     color: white;
 }
-.your-msg{
-    margin-left: 22%;
-}
 #msg{
-    width: 70%;
-    height: 17vw;
+    width: 60%;
+    background: none;
+    color: white; 
+    margin-top:2% ;
+    margin-left:20%;
 }
 
-#msg, #email, #name{
-    background: transparent;
-    color: white;
-}
+
 
 /* footer */
 .social{
