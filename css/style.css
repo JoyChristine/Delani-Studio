@@ -83,7 +83,16 @@
     color: white;
     text-align: center;
     margin-top:15%; 
+    padding-top: 3%;
+    padding-bottom: 9%;
     font-family: 'Gabriela', serif;
+}
+.form-control{
+    color: #fff;
+}
+.form-control::-webkit-input-placeholder {
+    color: #fff;
+    font-weight: 500;
 }
 .your-name , .your-email{
     display: inline-flex;
@@ -92,14 +101,16 @@
     color: white;
 }
 .your-msg{
-    width: 50%;
+    margin-left: 22%;
+}
+#msg{
+    width: 70%;
+    height: 17vw;
 }
 
-
 #msg, #email, #name{
-    
-    background-color: none;
-    background: none;
+    background: transparent;
+    color: white;
 }
 
 /* footer */
