@@ -84,9 +84,24 @@
     text-align: center;
     margin-top:15%; 
     font-family: 'Gabriela', serif;
-    
-    
 }
+.your-name , .your-email{
+    display: inline-flex;
+    width: 30%;
+    background: none;
+    color: white;
+}
+.your-msg{
+    width: 50%;
+}
+
+
+#msg, #email, #name{
+    
+    background-color: none;
+    background: none;
+}
+
 /* footer */
 .social{
     text-align: center;
