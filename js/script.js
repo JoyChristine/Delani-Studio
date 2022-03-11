@@ -19,3 +19,10 @@ $(document).ready(function () {
     });
     
 });
+$(document).ready(function() {
+    $("#pic1").mouseover(function() {
+        $("#hover1").show();
+    }).mouseout(function() {
+        $("#hover1").hide();
+    })
+});
