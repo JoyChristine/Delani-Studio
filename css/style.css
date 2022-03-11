@@ -51,13 +51,34 @@
     
 }
 /* WHAT WE DO */
+.row .column {
+    float: left;
+    width: 33.33%;
+}
+.column .flashcard{
+    display: block;
+
+}
+
+.row p{
+    font-size: 1.4vw;
+}
 .what-we-do{
     text-align: center;
     
 }
 #what{
-    margin-top: 5%;
+    display: flex;
 }
+.flashcard{
+    display:inline-flex;
+}
+.show , .hide{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
 /* portfolio */
 .container{
     margin-top: 2%;
