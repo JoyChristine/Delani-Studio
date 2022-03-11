@@ -38,6 +38,7 @@
     padding-top:5%; 
     padding-bottom: 5%;
 }
+/* services */
 .services{
     background-image: url('../assets/backgrounds/s_image.jpg');
     background-position: center center;
@@ -50,12 +51,15 @@
     font-family: 'Gabriela', serif;
 }
 .services p{
-    font-size: 2vw;
+    font-size: 1.3vw;
     font-family: 'Noto Sans KR', sans-serif;
 }
 /* WHAT WE DO */
 .what-we-do{
-    padding-top: 5%;
+    padding-top: 3%;
+}
+.row{
+    padding-top: 2%;
 }
 .row .column {
     float: left;
@@ -133,7 +137,9 @@
     margin-top:2% ;
     margin-left:20%;
 }
-
+#btn{
+    margin: 2%;
+}
 
 
 /* footer */
