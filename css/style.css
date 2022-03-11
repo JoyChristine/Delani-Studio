@@ -13,6 +13,7 @@
 .welcome h1{
     padding: .1%;
     margin-top:1%;
+    font-size: 3vw;
 }
 .welcome p{
     padding: .2%;
@@ -53,6 +54,9 @@
     font-family: 'Noto Sans KR', sans-serif;
 }
 /* WHAT WE DO */
+.what-we-do{
+    padding-top: 5%;
+}
 .row .column {
     float: left;
     width: 33.33%;
