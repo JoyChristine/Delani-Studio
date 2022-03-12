@@ -22,7 +22,7 @@ $(document).ready(function () {
     $(".card").hover(function() {
       $(this).children(".card-1").fadeToggle(500, "linear");
     })
-    $("button").click(function(event){
+    $("#btn").click(function(event){
       var person = document.getElementById("name").value;
       alert('Dear' + " " + person + " "+ 'we have received your message. Thank you for reaching out to us.');
       event.preventDefault();
