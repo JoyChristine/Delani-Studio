@@ -192,3 +192,6 @@
 .social .year{
     margin-top: -1%;
 }
+.social img:hover{
+    transform: scale(1.1); 
+}
