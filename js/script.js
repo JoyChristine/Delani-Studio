@@ -17,12 +17,9 @@ $(document).ready(function () {
       $("#hide3").toggle(600);
      
     });
-    
-});
-$(document).ready(function() {
-    $("#pic1").mouseover(function() {
-        $("#hover1").show();
-    }).mouseout(function() {
-        $("#hover1").hide();
+    // portfolio
+    $(".card").hover(function() {
+      $(this).children(".card-1").fadeToggle(500, "linear");
     })
 });
+    
