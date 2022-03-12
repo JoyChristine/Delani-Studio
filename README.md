@@ -11,9 +11,9 @@ https://joychristine.github.io/Delani-Studio/
  ## Installation / Setup instruction
 Open Terminal {Ctrl+Alt+T}
 
-git clone 
+git clone https://github.com/JoyChristine/Delani-Studio.git
 
-cd 
+cd Delani Studio
 
 code . or atom . depending on the text editor of your choice.
 
