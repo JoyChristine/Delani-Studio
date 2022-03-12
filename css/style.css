@@ -159,10 +159,16 @@
 #name, #email, #msg{
     font-size: 1.5vw;
 }
- 
-::placeholder {
-    color: #fff;
+::-moz-placeholder {
+    color:red;
 }
+::placeholder {
+    color: #fffeff;
+}
+
+::placeholder{
+    color: aliceblue; 
+} 
 #name , #email{
     display: inline-flex;
     width: 30%;
