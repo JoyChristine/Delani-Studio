@@ -148,18 +148,23 @@
     </div>
     <div class="contact">
       <h2>CONTACT US</h2>
-      <form id="contact-form">
+      <form id="mc-embedded-subscribe-form" method="post" action="https://moringaschool.us14.list-manage.com/subscribe/post?u=b991056913cbadd5276ff3869&amp;id=ef29ff9144">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Name..."  id="name" required="required">
-          <input type="email" class="form-control" placeholder="Email..."id="email"  autocapitalize="off" autocomplete="off" required="required">
+          <input type="text" class="form-control" placeholder="Name..."  id="name" name="FNAME" required="required">
+          <input type="email" class="form-control" placeholder="Email..."id="email" name="EMAIL" autocapitalize="off" autocomplete="off" required="required">
         </div>
         <div class="form-group">
-          <textarea class="form-control" rows="8" id="msg" placeholder="Your message here..." required="required"></textarea>
+          <textarea class="form-control" rows="8" id="msg" placeholder="Your message here..." name="MSG" required="required"></textarea>
         </div>
-        <button type="button" class="btn btn-primary" id="btn">Submit</button>
+        <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"class="btn btn-primary">Submit</button>
+        
         <button type="reset" class="btn btn-outline-danger">Reset</button>
       </form>  
    </div>
+
+
+
+   
     <footer id="footer">
         <div class="social">
             <img src="assets/social_icons/twitter.png">
@@ -179,5 +184,7 @@
     </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='MSG';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 </body>
 </html>
