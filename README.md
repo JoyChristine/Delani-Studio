@@ -23,7 +23,7 @@ code . or atom . depending on the text editor of your choice.
 * Jquery - All the hover and click effects were made using jquery
 
 #### Mail Chimp API
-The Mail Chimp API was implemented in this project to track all form submission.
+The Mail Chimp API was implemented in this project to track all form submission. <br>
 YouTube link: https://www.youtube.com/watch?v=p9KKpTOt8-g&ab_channel=KhanWebTutorial-KWT
 
  ## Contact Information
