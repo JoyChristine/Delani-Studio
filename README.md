@@ -6,7 +6,7 @@ A website to a fictional website of Delani Studio.
 
 
  ## Live Page
-https://joychristine.github.io/Delani-Studio/
+
 
  ## Installation / Setup instruction
 Open Terminal {Ctrl+Alt+T}
